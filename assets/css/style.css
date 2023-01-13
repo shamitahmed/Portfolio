@@ -124,11 +124,13 @@ h2 {
 }
 
 #gallerysc div.gallery {
-  margin: 15px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 300px;
-  }
+	margin: 15px;
+	border: 1px solid #ccc;
+	float: left;
+	max-width: 300px;
+	max-height: 375px;
+	min-height: 330px;
+}
   
   #gallerysc  div.gallery:hover {
   border: 1px solid #777;
