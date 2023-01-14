@@ -390,7 +390,7 @@ border: none;
   padding: 0;
 }
 .about .img-fluid {
-	max-width: 40%;
+	max-width: 80%;
 	height: auto;
 	/* padding-left: ; */
 	transform: translateX(50px);
