@@ -194,7 +194,12 @@ h2 {
   transition: 0.3s;
   font-size: 15px;
 }
-
+.priority{
+ 
+    flex: 0 0 33.3333333333%;
+    max-width: 35.3333333333%;
+  
+}
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
