@@ -4,7 +4,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: white !important;
-  background-color: black !important;
+  background-color: #24262d !important;
 }
 
 a {
@@ -338,7 +338,7 @@ section {
   background: black;
 }
 .section-bg-portfolio {
-  background: #34363d !important;
+  background: #24262d !important;
 }
 .section-title {
   padding-bottom: 0px;
