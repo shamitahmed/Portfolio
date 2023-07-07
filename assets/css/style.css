@@ -49,7 +49,21 @@ h2 {
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
+@media (min-width: 1400px) {
+  .priority iframe{
+    width: 110%; height: 250px;
+  }
+.third-prior{
+    transform: translateX(100px);
 
+    width: 33%;
+  }
+  .first-prior{
+    transform: translateX(-100px);
+
+    width: 33%;
+  }
+  }
 .back-to-top i {
   font-size: 24px;
   position: absolute;
@@ -351,7 +365,9 @@ section {
   border-radius: 12px;
 border: none;
 }
-
+.portfolio-container:nth-child(1){
+  transform: translateX(-100px) !important;
+}
 .acquiredSkills-item iframe{
   border-radius: 12px;
 border: none;
@@ -1216,3 +1232,15 @@ border: 0px !important;
 [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
 	transition-duration: 0.5s !important;
 }
+@media (max-width: 1199px) {
+.priority{
+  max-width: 100% !important;
+  transform: translateX(0px) !important;
+}
+
+.portfolio-container{
+  display: block !important;
+}
+}
+
+
