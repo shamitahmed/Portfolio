@@ -345,6 +345,7 @@ section {
 }
 #resume{
   background: black;
+  display: inline-flex;
 }
 .portfolio-item iframe{
   border-radius: 12px;
