@@ -139,26 +139,27 @@ h2 {
 }
 
 #gallerysc div.gallery {
-	margin: 15px;
-	border: 1px solid #ccc;
+	margin: 3px;
+	/* border: 1px solid #ccc; */
 	float: left;
-	max-width: 300px;
-	max-height: 375px;
-	min-height: 330px;
+	max-width: 150px;
+	max-height: 100px;
+	/* min-height: 150px; */
 }
   
-  #gallerysc  div.gallery:hover {
+  /* #gallerysc  div.gallery:hover {
   border: 1px solid #777;
-  }
+  } */
   
   #gallerysc  div.gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
   }
   
   #gallerysc  div.desc {
-    padding: 15px;
+    padding: 3px;
     text-align: center;
+    font-size: 12px;
   }
 #header .profile .social-links a:hover {
   background: yellow !important;
@@ -1032,6 +1033,9 @@ border: none;
 .contact .php-email-form button[type='submit']:hover {
   background: #37b3ed;
 }
+
+/* .mySlides {display: none;}
+img {vertical-align: middle;} */
 
 @-webkit-keyframes animate-loading {
   0% {
