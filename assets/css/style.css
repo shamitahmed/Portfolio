@@ -488,15 +488,15 @@ border: none;
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 30px;
   display: block;
   background: none;
   
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
+  padding: 5px 0;
+  margin: 0 0 4px 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -514,8 +514,8 @@ border: none;
 }
 
 .skills .progress-bar {
-  width: 1px;
-  height: 10px;
+  width: 0px;
+  height: 2px;
   transition: 0.9s;
   background-color: #149ddd;
 }
