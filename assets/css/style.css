@@ -8,11 +8,11 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #0ED068 !important;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: yellow !important;
   text-decoration: none;
 }
 i {
@@ -73,7 +73,7 @@ h2 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: yellow;
   transition: background 0.2s ease-in-out;
 }
 
@@ -253,7 +253,7 @@ h2 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #0ED068;
 }
 
 .mobile-nav-active {
@@ -485,11 +485,11 @@ border: none;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 30px;
-  display: block;
+  height: 20px;
+  /* display: block; */
   background: none;
   
 }
@@ -517,7 +517,7 @@ border: none;
   width: 0px;
   height: 2px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #0ED068;
 }
 
 /*--------------------------------------------------------------
@@ -696,7 +696,7 @@ border: none;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #0ED068;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -757,7 +757,7 @@ border: none;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #0ED068;
 }
 
 .services .description {
@@ -852,7 +852,7 @@ border: none;
 }
 
 .testimonials .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: #0ED068 !important;
 }
 
 @media (max-width: 767px) {
@@ -877,7 +877,7 @@ border: none;
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #0ED068;
   float: left;
   width: 44px;
   height: 44px;
