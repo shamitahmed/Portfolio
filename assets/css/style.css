@@ -95,12 +95,12 @@ h2 {
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 12px auto;
   display: block;
-  width: 250px;
+  width: 150px;
 }
 .profile-text{
-  transform: translateX(20px);
+  transform: translateX(55px);
 }
 #header .profile h1 {
   font-size: 24px;
@@ -116,7 +116,8 @@ h2 {
 #header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 40px;
+  /* margin-top: -50px; */
 }
 
 #header .profile .social-links a {
@@ -186,7 +187,7 @@ h2 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 #header .profile p{
   color: #0ED068 !important;
@@ -206,8 +207,8 @@ h2 {
   display: flex;
   align-items: center;
   color: #dddddd;
-  padding: 12px 15px;
-  margin-bottom: 8px;
+  padding: 12px 10px;
+  margin-bottom: 5px;
   transition: 0.3s;
   font-size: 15px;
 }
