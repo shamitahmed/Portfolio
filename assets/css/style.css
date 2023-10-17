@@ -51,15 +51,15 @@ h2 {
 }
 @media (min-width: 1400px) {
   .priority iframe{
-    width: 110%; height: 250px;
+    width: 100%; height: 200px;
   }
 .third-prior{
-    transform: translateX(100px);
+    transform: translateX(50px);
 
     width: 33%;
   }
   .first-prior{
-    transform: translateX(-100px);
+    transform: translateX(-50px);
 
     width: 33%;
   }
