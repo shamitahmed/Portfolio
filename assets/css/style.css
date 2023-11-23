@@ -365,7 +365,7 @@ section {
   display: inline-flex;
 }
 .portfolio-item iframe{
-  border-radius: 12px;
+  border-radius: 5px;
 border: none;
 }
 .portfolio-container:nth-child(1){
