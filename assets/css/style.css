@@ -58,6 +58,12 @@ h2 {
 
     width: 33%;
   }
+
+  .portfolio-item .description a{
+    padding-right: 2% !important;
+    padding-left: 2% !important;
+  }
+
   .first-prior{
     transform: translateX(-50px);
 
