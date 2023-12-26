@@ -4,7 +4,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: white !important;
-  background-color: #17181d !important;
+  background-color: black !important;
 }
 
 a {
@@ -16,7 +16,13 @@ a:hover {
   text-decoration: none;
 }
 i {
-  color: #0ED068 !important;
+  color: white !important;
+}
+i:hover{
+  color: yellow !important;
+}
+span:hover{
+  color: yellow !important;
 }
 h1,
 h2,
@@ -44,7 +50,7 @@ h2 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: #0ED068;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -96,7 +102,7 @@ h2 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #1a1e20;
+  background: #0e0e11;
   overflow: none;
 }
 
@@ -129,7 +135,7 @@ h2 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #303446;
+  background: #1a1c27;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -361,7 +367,7 @@ section {
   background: black;
 }
 .section-bg-portfolio {
-  background: #17181d !important;
+  background: #0e0e11 !important;
 }
 .section-title {
   padding-bottom: 0px;
@@ -465,7 +471,7 @@ border: none;
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #0e0e11;
   margin-left: 60px;
 }
 
@@ -535,7 +541,7 @@ border: none;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #0e0e11;
 }
 
 .resume .resume-item {
@@ -551,7 +557,7 @@ border: none;
   font-weight: 400;
   text-transform: none;
   font-family: 'Poppins', sans-serif;
-  color: #050d18;
+  color: #0e0e11;
   margin-bottom: 10px;
 }
 .resume-item h4{
@@ -615,7 +621,7 @@ border: none;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #0e0e11;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -760,7 +766,7 @@ border: none;
 }
 
 .services .title a {
-  color: #343a40;
+  color: #0e0e11;
 }
 
 .services .title a:hover {
@@ -901,7 +907,7 @@ border: none;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #0e0e11;
 }
 
 .contact .info p {
@@ -1208,7 +1214,7 @@ img {vertical-align: middle;} */
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #0e0e11;
 }
 
 #footer .copyright {
