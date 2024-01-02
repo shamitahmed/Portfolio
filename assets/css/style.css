@@ -108,7 +108,7 @@ h2 {
   transition: all 0.5s;
   padding: 0 15px;
   background: rgb(29,32,56);
-  background: linear-gradient(180deg,  rgba(0,0,0,1) 0%, rgba(29,32,56,1) 95%); 
+  background: linear-gradient(0deg,  rgba(0,0,0,1) 60%, rgba(29,32,56,1) 95%); 
   overflow: none;
 }
 
