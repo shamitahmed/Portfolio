@@ -38,11 +38,28 @@ h6 {
   /* color: #fdc576 !important; */
   color: white !important;
 }
-
+.ytp-button{
+  width: 34px !important;
+  height: 24px !important;
+}
 h2 {
   color: #b4ddfb !important;
 }
 
+.resume-item:hover{
+  transition: transform .3s ease-out;
+  transform: translateY(-5%);
+}
+.resume-item:not(:hover){
+  transition: transform .3s ease-out;
+}
+.portfolio-item:hover{
+  transition: transform .3s ease-out;
+  transform: translateY(-5%);
+}
+.portfolio-item:not(:hover){
+  transition: transform .3s ease-out;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
