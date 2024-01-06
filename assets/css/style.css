@@ -60,6 +60,13 @@ h2 {
 .portfolio-item:not(:hover){
   transition: transform .3s ease-out;
 }
+.timeline-content:hover{
+  transition: transform .3s ease-out;
+  transform: translateY(-5%);
+}
+.timeline-content:not(:hover){
+  transition: transform .3s ease-out;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1381,10 +1388,12 @@ border: 0px !important;
 .site-footer
 {
   background-color:black;
-  padding:20px 0 20px;
+  padding:20px 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;
+  /* align-content: center;
+  display: block !important; */
 }
 .site-footer hr
 {
