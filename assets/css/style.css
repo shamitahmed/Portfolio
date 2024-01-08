@@ -460,7 +460,11 @@ h2 {
     background-attachment: fixed;
   }
 }
-
+@media (max-width: 1024px) {
+  #resume{
+    display: block;
+  }
+}
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -1359,6 +1363,7 @@ img {vertical-align: middle;} */
     width: auto;
     padding-right: 20px 15px;
   }
+ 
 }
 
 .bxl-itch-io, .bxl-behance{
@@ -1380,10 +1385,19 @@ border: 0px !important;
   max-width: 100% !important;
   transform: translateX(0px) !important;
 }
-
+#resume{
+  display: block !important;
+}
 .portfolio-container{
   display: block !important;
 }
+#tools .resume-item{
+  width: 100% !important;
+  margin: 5% !important;
+  padding-left: 20px !important;
+  height: 50px !important;
+}
+
 }
 .site-footer
 {
@@ -1460,7 +1474,7 @@ border: 0px !important;
 .copyright-text
 {
   text-align: center;
-  margin:0
+
 }
 @media (max-width:991px)
 {
