@@ -12,12 +12,12 @@ body {
 
 a {
   /* color: #0ED068 !important; */
-  color: #b4ddfb !important;
+  color: #94c4e7 !important;
 }
 
 a:hover {
   color: yellow !important;
-  text-decoration: none;
+  
 }
 i {
   color: white !important;
@@ -753,6 +753,7 @@ border: none;
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+ 
 }
  #acquiredSkill-flters {
   padding: 0;
