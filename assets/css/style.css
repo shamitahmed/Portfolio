@@ -219,6 +219,9 @@ h2 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+:root {
+  --gradient: linear-gradient(-25deg, #000000 , #0a0b13 ,  #1D2038 , #1f7aa4);
+}
 #header {
   position: fixed;
   top: 0;
@@ -231,9 +234,23 @@ h2 {
   padding: 0 15px;
   background: rgb(29,32,56);
   background: linear-gradient(0deg,  rgba(0,0,0,1) 60%, rgba(29,32,56,1) 95%); 
+  background: #ddd;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 15s infinite;
   overflow: none;
 }
-
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
 #header .profile img {
   margin: 12px auto;
   display: block;
