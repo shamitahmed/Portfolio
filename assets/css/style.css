@@ -341,6 +341,11 @@ h2 {
   }
 }
 
+.activegif {
+height: 200px;
+width: 300px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1756,7 +1761,7 @@ border: 0px !important;
   display: block !important;
 }
 #tools .resume-item{
-  width: 100% !important;
+  width: 100% !important; 
   margin: 5% !important;
   padding-left: 20px !important;
   height: 50px !important;
